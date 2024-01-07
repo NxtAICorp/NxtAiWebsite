@@ -33,7 +33,7 @@ const Business: React.FC = () => (
         You do the business, <br className="sm:block hidden " />
         We e-label it.
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-center`}>
         With the power of our E-LabelNxt, you can improve your time business, your financial and you real time market prices. Forget the paper and the lazy tag dummie. The future is ESL.
       </p>
     </div>

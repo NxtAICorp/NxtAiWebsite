@@ -9,7 +9,7 @@ const CardDeal: React.FC = () => (
       <h2 className={`${styles.heading2} text-center`}>
         How does it work?
       </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-center`}>
         Electronic shelf label systems &#40; ESL &#41; are used to display and automati cally update product pricing shown on shelves. They are typically comprised of three components:
       </p>
 
@@ -24,7 +24,7 @@ const CardDeal: React.FC = () => (
 
       </ul>
 
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5 text-center`}>
         The label management software provides an intuitive way for users to easily manage pricing and stock information for every product across their entire network of stores. This information is then sent to the communication controller via Wi-Fi before being transmitted to the e-paper display modules via a private 2.G Wi-Fi signal for ultimate data transfer security. Updates are automatically rolled out across the shop floor instantly.
       </p>
 

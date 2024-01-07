@@ -4,10 +4,11 @@ import { contact } from "@/constants";
 const Button: React.FC<ButtonProps> = ({ styles }) => {
   return (
     <div className="list-none">
+      
       {contact.map((nav, index) => (
         <li
           key={nav.id}
-          className={`font-poppins font-normal cursor-pointer text-[16px] text-white  ${index === contact.length - 1 ? 'mr-0' : 'mr-10'}`}>
+          className={`font-poppins font-normal cursor-pointer text-[16px] text-white cursor-pointer ${index === contact.length - 1 ? 'mr-0' : 'mr-10'}`}>
           <a href={`#${nav.id}`}>
             <button
               type="button"
@@ -19,7 +20,6 @@ const Button: React.FC<ButtonProps> = ({ styles }) => {
           </a>
         </li>
       ))}
-
     </div>
 
   );

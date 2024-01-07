@@ -32,12 +32,12 @@ export default function Contact() {
 
     return (
 
-        <form onSubmit={handleSubmit} className="flex justify-center items-center flex-col border-2 border-rose-500 rounded-md py-8 px-8 font-poppins font-normal text-dimWhite text-[16px] leading-[24px] bg-indigo-500/10 shadow-lg shadow-indigo-500/50 ">
+        <form onSubmit={handleSubmit} className={`flex justify-center items-center flex-col border-2 border-rose-500 rounded-md py-10 px-20 font-poppins font-normal text-dimWhite text-[16px] leading-[24px] bg-indigo-500/10 shadow-lg shadow-indigo-500/50 w-[70%]`}>
 
         <div className="flex flex-col text-base">
             <label htmlFor="email">Email</label>
             <input
-                className="mt-1 block w-96 px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                className="mt-1 block w-64 px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
                 disabled:bg-slate-50 text-slate-500 disabled:border-slate-200 disabled:shadow-none
                 invalid:border-pink-500 invalid:text-pink-600
@@ -60,6 +60,9 @@ export default function Contact() {
                 inputProps={
                     {require: true,}
                 }
+                inputStyle={{
+                    width:"260px"
+                }}
                 value={Phone}
             />
             <ValidationError prefix="Phone" field="phone" errors={state.errors} />
@@ -68,7 +71,7 @@ export default function Contact() {
             <div className="flex flex-col">
                 <label htmlFor="firstName">First Name</label>
                 <input
-                    className="mt-1 block w-96 px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                    className="mt-1 block w-64 px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                     focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
                     disabled:bg-slate-50 text-slate-500 disabled:border-slate-200 disabled:shadow-none
                     invalid:border-pink-500 invalid:text-pink-600
@@ -85,7 +88,7 @@ export default function Contact() {
             <div className="flex flex-col pt-5">
                 <label htmlFor="lastName">Last Name</label>
                 <input
-                    className="mt-1 block w-96 px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                    className="mt-1 block w-64 px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                     focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
                     disabled:bg-slate-50 text-slate-500 disabled:border-slate-200 disabled:shadow-none
                     invalid:border-pink-500 invalid:text-pink-600
@@ -105,7 +108,7 @@ export default function Contact() {
             <textarea
                 id="message"
                 name="message"
-                className="mt-1 block w-96 px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
+                className="mt-1 block w-64 px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400
                 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500
                 disabled:bg-slate-50 text-slate-500 disabled:border-slate-200 disabled:shadow-none
                 invalid:border-pink-500 invalid:text-pink-600
