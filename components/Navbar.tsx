@@ -1,6 +1,6 @@
 "use client"
 import { useState } from 'react';
-import { close, menu} from "@/public/assets";
+import { close, menu } from "@/public/assets";
 import { navLinks } from "@/constants";
 import Image from 'next/image';
 import Logo from "./Logo";
@@ -14,7 +14,7 @@ const Navbar: React.FC = () => {
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <Logo />
       {/* <Image src={logo} alt="Nxt AI" width={124} height={32} /> */}
-        
+
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -25,11 +25,13 @@ const Navbar: React.FC = () => {
             </a>
           </li>
         ))}
+       
 
         {/* Whatsapp Button */}
         <div className='ml-5'>
           <Whatsapp />
         </div>
+
 
       </ul>
 
@@ -54,8 +56,8 @@ const Navbar: React.FC = () => {
               </li>
             ))}
             <div className='ml-5 pt-6'>
-        <Whatsapp />
-        </div>
+              <Whatsapp />
+            </div>
           </ul>
         </div>
       </div>
