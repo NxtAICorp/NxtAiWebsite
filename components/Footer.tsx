@@ -2,6 +2,7 @@ import styles from "@/styles/style";
 import { footerLinks, socialMedia } from "@/constants";
 import Image from "next/image";
 import Logo from "./Logo";
+import LanguageList from "./LanguageList";
 const Footer: React.FC = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col `}>
     <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full `}>
@@ -52,6 +53,9 @@ const Footer: React.FC = () => (
               }`}
           />
         ))}
+      </div>
+      <div className="sm:flex hidden ml-5 pt-6">
+      <LanguageList />
       </div>
     </div>
   </section>

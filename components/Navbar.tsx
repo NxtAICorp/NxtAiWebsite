@@ -5,6 +5,7 @@ import { navLinks } from "@/constants";
 import Image from 'next/image';
 import Logo from "./Logo";
 import Whatsapp from './Whatsapp';
+import LanguageList from './LanguageList';
 
 
 
@@ -57,6 +58,9 @@ const Navbar: React.FC = () => {
             ))}
             <div className='ml-5 pt-6'>
               <Whatsapp />
+            </div>
+            <div className="ml-5 pt-6">
+              <LanguageList />
             </div>
           </ul>
         </div>
