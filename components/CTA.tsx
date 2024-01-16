@@ -1,5 +1,5 @@
 import styles from "@/styles/style";
-import Contact from "./Contact";
+import Contact from "./ContactForm";
 
 const CTA: React.FC = () => (
     <section id="contact" className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow py-10 `}>

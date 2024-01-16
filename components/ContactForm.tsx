@@ -1,18 +1,10 @@
-import { useForm, ValidationError } from "@formspree/react";
 import styles from "@/styles/style";
-import React, { useState } from "react";
 
 export default function ContactForm() {
 
-    /* API FORMSPREE */
-
-    const [state, handleSubmit] = useForm("xpzvznlz");
-    if (state.succeeded) {
-        return <p className={`${styles.paragraph} ml-2`}>Thanks for your submission!</p>;
-    }
 
     return (
-        <form onSubmit={handleSubmit} className={`flex justify-center items-center flex-col border-2 border-rose-500 rounded-md py-10 px-20 font-poppins font-normal text-dimWhite text-[16px] leading-[24px] bg-indigo-500/10 shadow-lg shadow-indigo-500/50 w-[70%]`}>
+        <form className={`flex justify-center items-center flex-col border-2 border-rose-500 rounded-md py-10 px-20 font-poppins font-normal text-dimWhite text-[16px] leading-[24px] bg-indigo-500/10 shadow-lg shadow-indigo-500/50 w-[70%]`}>
 
         <div className="flex flex-col text-base">
             <label htmlFor="email">Email</label>
@@ -29,7 +21,6 @@ export default function ContactForm() {
                 placeholder="yourmail@yahoo.com"
                 required
             />
-            <ValidationError prefix="Email" field="email" errors={state.errors} />
         </div>
         <div className="flex flex-col pt-5 ">
             <label htmlFor="phone">Phone</label>
@@ -47,7 +38,6 @@ export default function ContactForm() {
                 placeholder="(+593) 988999988"
                 required
             />
-            <ValidationError prefix="Phone" field="phone" errors={state.errors} />
         </div>
         <div className="flex flex-col pt-5">
             <div className="flex flex-col">
@@ -65,7 +55,7 @@ export default function ContactForm() {
                     placeholder="your name"
                     required
                 />
-                <ValidationError prefix="firstName" field="firstName" errors={state.errors} />
+                
             </div>
             <div className="flex flex-col pt-5">
                 <label htmlFor="lastName">Last Name</label>
@@ -82,7 +72,6 @@ export default function ContactForm() {
                     placeholder="your last name"
                     required
                 />
-                <ValidationError prefix="lastName" field="lastName" errors={state.errors} />
             </div>
         </div>
         <div className="flex flex-col  pt-5">
@@ -96,14 +85,12 @@ export default function ContactForm() {
                 invalid:border-pink-500 invalid:text-pink-600
                 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
                 placeholder="Write your message here" />
-                <ValidationError prefix="Message" field="message" errors={state.errors} />
+
         </div>
         <div className="flex flex-col  pt-8">
             <button
                 type="submit"
-                disabled={state.submitting}
                 className={`${styles} py-2 px-6 bg-blue-gradient font-poppins font-medium text-[16px] text-primary outline-none rounded-[10px] hover:translate-x-2  transition-all ease-linear cursor-pointer`}>Submit</button>
-                <ValidationError errors={state.errors} />
         </div>
         </form>
 
