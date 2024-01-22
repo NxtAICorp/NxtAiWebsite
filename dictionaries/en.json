@@ -1,0 +1,220 @@
+{
+    "Home": {
+        "footer": {
+            "title": "A new way to make your business easy. \"E-labels for other Levels\"",
+            "footerLinks": [
+            {
+                "id": "footerLinks-1",
+                "title": "Useful Links",
+                "links": [
+                {
+                    "name": "Terms & Services",
+                    "link": "/"
+                }
+                ]
+            },
+            {
+                "id": "footerLinks-2",
+                "title": "Client Service",
+                "links": [
+                {
+                    "name": "Help Center",
+                    "link": "/"
+                }
+                ]
+            },
+            {
+                "id": "footerLinks-3",
+                "title": "Partners",
+                "links": [
+                {
+                    "name": "Our Partner",
+                    "link": "/"
+                },
+                {
+                    "name": "Become a Partner",
+                    "link": "/"
+                }
+                ]
+            }
+            ],
+            "socialMedia": [
+            {
+                "id": "social-media-1",
+                "icon": "path_to_instagram_icon",
+                "link": "/"
+            },
+            {
+                "id": "social-media-2",
+                "icon": "path_to_facebook_icon",
+                "link": "https://www.facebook.com/"
+            },
+            {
+                "id": "social-media-3",
+                "icon": "path_to_twitter_icon",
+                "link": "https://www.twitter.com/"
+            },
+            {
+                "id": "social-media-4",
+                "icon": "path_to_linkedin_icon",
+                "link": "https://www.linkedin.com/"
+            }
+            ],
+            "rightMessage": "2023 © NXT AI. All Rights Reserved."
+        },
+    
+        "CTA": {
+            "title": "Let's try our service now!",
+            "contact": {
+            "name": "Name",
+            "email": "Email",
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "message": "Message",
+            "phone": "Phone",
+            "submit": "Submit"
+            }
+        },
+    
+        "Client": {
+            "title": "Our Clients",
+            "clients": [
+            {
+                "id": "client-1",
+                "logo": "@/public/assets/MedicityLogo.svg"
+            }
+            ]
+        },
+    
+        "CardDeal": {
+            "title": "How does it work?",
+            "desc1": "Electronic shelf label systems (ESL) are used to display and automatically update product pricing shown on shelves. They are typically comprised of three components:",
+            "desc2": "The label management software provides an intuitive way for users to easily manage pricing and stock information for every product across their entire network of stores. This information is then sent to the communication controller via Wi-Fi before being transmitted to the e-paper display modules via a private 2.G Wi-Fi signal for ultimate data transfer security. Updates are automatically rolled out across the shop floor instantly.",
+            "links": [
+            { "name": "Label management software." },
+            { "name": "Communication controllers." },
+            { "name": "E-paper display modules." }
+            ]
+        },
+    
+        "BillingDetails": {
+            "billingtitle": "Why E-Labels?",
+            "billings": [
+            {
+                "id": "billing-1",
+                "icon": "check",
+                "title": "Cloud",
+                "content": "Saas and private cloud deployment."
+            },
+            {
+                "id": "billing-2",
+                "icon": "check",
+                "title": "Warranty",
+                "content": "10+ years of wireless software and hardware experience."
+            },
+            {
+                "id": "billing-3",
+                "icon": "check",
+                "title": "Development",
+                "content": "A quick and customized solution as per industry needs."
+            },
+            {
+                "id": "billing-4",
+                "icon": "check",
+                "title": "Quality",
+                "content": "End-to-end cost control model with a super quality product."
+            }
+            ]
+        },
+    
+        "BusinessDetails": {
+            "title1": "You do the business",
+            "title2": "We e-label it.",
+            "desc": "With the power of our E-LabelNxt, you can improve your time business, your financial and your real-time market prices. Forget the paper and the lazy tag dummie. The future is ESL.",
+            "features": [
+            {
+                "id": "feature-1",
+                "title": "Wireless RFID technology",
+                "content": "Real-time updating of bulk price tags."
+            },
+            {
+                "id": "feature-2",
+                "title": "Reducing labor costs",
+                "content": "Achieving profit growth in supermarkets."
+            },
+            {
+                "id": "feature-3",
+                "title": "Online and offline",
+                "content": "Synchronization data across multiple stores."
+            }
+            ]
+        },
+    
+        "Stats": [
+            {
+            "id": "stats-1",
+            "title": "Real Time Update",
+            "value": "100%"
+            },
+            {
+            "id": "stats-2",
+            "title": "High Energy Efficiency",
+            "value": "100%"
+            },
+            {
+            "id": "stats-3",
+            "title": "Low Error",
+            "value": "0.01%"
+            }
+        ],
+    
+        "Herosection": {
+    
+            "getstartedt1":"",
+            "getstartedt2":"Future ESL",
+            "t1": "The Next",
+            "t2": "Generation",
+            "t3": "Electronic Shelf Label",
+            "label1": "Labels",
+            "label2": "are better",
+            "label3": "with",
+            "label4": "AI",
+            "desc": "Our team of experts use a methodology to identify through artificial intelligence the best solution for your business."
+        
+            ,"contact":[{
+            "id": "contact",
+            "title": "Contact US" }]
+            
+        
+            
+        }
+    
+    
+    ,
+    "NavLinks" : [
+        {
+            "id": "home",
+            "title": "Home"
+        },
+        {
+            "id": "features",
+            "title": "Features"
+        },
+        {
+            "id": "product",
+            "title": "Product"
+        },
+        {
+            "id": "clients",
+            "title": "Clients"
+        }
+    ]
+    ,
+    "GetStarted":{
+        "t1":"Get Your",
+        "t2":"Future ESL"
+    }
+    
+    
+        }
+}

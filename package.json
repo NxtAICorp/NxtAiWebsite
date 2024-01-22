@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@formatjs/intl-localematcher": "^0.5.4",
     "@formspree/react": "^2.5.1",
     "@types/node": "20.2.5",
     "@types/react": "18.2.8",
@@ -18,7 +19,9 @@
     "embla-carousel-autoplay": "^8.0.0-rc15",
     "embla-carousel-react": "^8.0.0-rc15",
     "i18next": "^23.7.9",
+    "negotiator": "^0.6.3",
     "next": "^13.5.6",
+    "next-i18next": "^15.2.0",
     "postcss": "^8.4.32",
     "react": "18.2.0",
     "react-dom": "18.2.0",
